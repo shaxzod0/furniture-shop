@@ -6,14 +6,35 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
-
+    let data = MockData.introductionData
+    let skipButton = UIButton()
+    weak var collectionView: UICollectionView?
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        initViews()
     }
+}
 
-
+extension ViewController: UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource{
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        <#code#>
+    }
+    
+    private func initViews(){
+        let l = UICollectionViewFlowLayout()
+        l.scrollDirection = .horizontal
+        l.minimumInteritemSpacing = 0
+        l.minimumLineSpacing = 0
+        
+        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: l)
+        view.addSubview(collectionView)
+    }
 }
 
