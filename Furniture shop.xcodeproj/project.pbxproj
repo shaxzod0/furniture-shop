@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		796797E327F86DC500E08A58 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796797E227F86DC500E08A58 /* Image.swift */; };
 		79CC6D7427DF6DF800C44E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC6D7327DF6DF800C44E8C /* AppDelegate.swift */; };
 		79CC6D7627DF6DF800C44E8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC6D7527DF6DF800C44E8C /* SceneDelegate.swift */; };
 		79CC6D7827DF6DF800C44E8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC6D7727DF6DF800C44E8C /* ViewController.swift */; };
@@ -17,11 +18,22 @@
 		79EBBB0027DF71E700065B56 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBBAFF27DF71E700065B56 /* MockData.swift */; };
 		79EBBB0327DF72F100065B56 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBBB0227DF72F100065B56 /* UserDefaults.swift */; };
 		79EBBB0627DF743100065B56 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBBB0527DF743100065B56 /* TabBarController.swift */; };
+		79EBBB0927DF75C800065B56 /* IntroductionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBBB0827DF75C800065B56 /* IntroductionCell.swift */; };
+		79EBBB0B27DF97DD00065B56 /* AuthorizationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBBB0A27DF97DD00065B56 /* AuthorizationVC.swift */; };
+		79EBBB0E27DF9B2E00065B56 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBBB0D27DF9B2E00065B56 /* AppColor.swift */; };
+		79EBBB1027DF9E0500065B56 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBBB0F27DF9E0500065B56 /* TextField.swift */; };
+		79EBBB1227DFA17700065B56 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBBB1127DFA17700065B56 /* Button.swift */; };
+		79EBBB1427DFA23F00065B56 /* CodeConfirmationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBBB1327DFA23F00065B56 /* CodeConfirmationVC.swift */; };
+		79EBBB1627DFA5AC00065B56 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBBB1527DFA5AC00065B56 /* MainVC.swift */; };
+		79EBBB1827DFA74800065B56 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBBB1727DFA74800065B56 /* FavoriteVC.swift */; };
+		79EBBB1B27DFA77F00065B56 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBBB1A27DFA77F00065B56 /* CartVC.swift */; };
+		79EBBB1D27DFA78B00065B56 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBBB1C27DFA78B00065B56 /* ProfileVC.swift */; };
 		8AAFA5C6E46E1764909FE779 /* Pods_Furniture_shop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFCC5B07A391E5333F0F0BD /* Pods_Furniture_shop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6FFCC5B07A391E5333F0F0BD /* Pods_Furniture_shop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Furniture_shop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		796797E227F86DC500E08A58 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		79CC6D7027DF6DF800C44E8C /* Furniture shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Furniture shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79CC6D7327DF6DF800C44E8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79CC6D7527DF6DF800C44E8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +46,16 @@
 		79EBBAFF27DF71E700065B56 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		79EBBB0227DF72F100065B56 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		79EBBB0527DF743100065B56 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		79EBBB0827DF75C800065B56 /* IntroductionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionCell.swift; sourceTree = "<group>"; };
+		79EBBB0A27DF97DD00065B56 /* AuthorizationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationVC.swift; sourceTree = "<group>"; };
+		79EBBB0D27DF9B2E00065B56 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		79EBBB0F27DF9E0500065B56 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		79EBBB1127DFA17700065B56 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		79EBBB1327DFA23F00065B56 /* CodeConfirmationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeConfirmationVC.swift; sourceTree = "<group>"; };
+		79EBBB1527DFA5AC00065B56 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		79EBBB1727DFA74800065B56 /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
+		79EBBB1A27DFA77F00065B56 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		79EBBB1C27DFA78B00065B56 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		9E1628C1C879D1E025F981B5 /* Pods-Furniture shop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Furniture shop.debug.xcconfig"; path = "Target Support Files/Pods-Furniture shop/Pods-Furniture shop.debug.xcconfig"; sourceTree = "<group>"; };
 		D7C69689DF4843520FD9C1D1 /* Pods-Furniture shop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Furniture shop.release.xcconfig"; path = "Target Support Files/Pods-Furniture shop/Pods-Furniture shop.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +102,7 @@
 		79CC6D7227DF6DF800C44E8C /* Furniture shop */ = {
 			isa = PBXGroup;
 			children = (
+				79EBBB0C27DF9B2100065B56 /* Extension */,
 				79EBBB0727DF751000065B56 /* Cell */,
 				79EBBB0427DF741E00065B56 /* Pages */,
 				79EBBB0127DF72E100065B56 /* Default */,
@@ -124,6 +147,12 @@
 			isa = PBXGroup;
 			children = (
 				79EBBB0527DF743100065B56 /* TabBarController.swift */,
+				79EBBB0A27DF97DD00065B56 /* AuthorizationVC.swift */,
+				79EBBB1327DFA23F00065B56 /* CodeConfirmationVC.swift */,
+				79EBBB1527DFA5AC00065B56 /* MainVC.swift */,
+				79EBBB1727DFA74800065B56 /* FavoriteVC.swift */,
+				79EBBB1A27DFA77F00065B56 /* CartVC.swift */,
+				79EBBB1C27DFA78B00065B56 /* ProfileVC.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -131,8 +160,20 @@
 		79EBBB0727DF751000065B56 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				79EBBB0827DF75C800065B56 /* IntroductionCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		79EBBB0C27DF9B2100065B56 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				79EBBB0D27DF9B2E00065B56 /* AppColor.swift */,
+				79EBBB0F27DF9E0500065B56 /* TextField.swift */,
+				79EBBB1127DFA17700065B56 /* Button.swift */,
+				796797E227F86DC500E08A58 /* Image.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		A8B513D9475D68466150559A /* Frameworks */ = {
@@ -257,13 +298,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79EBBB0B27DF97DD00065B56 /* AuthorizationVC.swift in Sources */,
+				79EBBB1627DFA5AC00065B56 /* MainVC.swift in Sources */,
 				79EBBAFE27DF71DB00065B56 /* Model.swift in Sources */,
+				79EBBB1B27DFA77F00065B56 /* CartVC.swift in Sources */,
+				79EBBB1427DFA23F00065B56 /* CodeConfirmationVC.swift in Sources */,
+				79EBBB1827DFA74800065B56 /* FavoriteVC.swift in Sources */,
 				79EBBB0627DF743100065B56 /* TabBarController.swift in Sources */,
+				79EBBB1027DF9E0500065B56 /* TextField.swift in Sources */,
 				79EBBB0027DF71E700065B56 /* MockData.swift in Sources */,
 				79CC6D7E27DF6DF800C44E8C /* Furniture_shop.xcdatamodeld in Sources */,
 				79CC6D7827DF6DF800C44E8C /* ViewController.swift in Sources */,
 				79CC6D7427DF6DF800C44E8C /* AppDelegate.swift in Sources */,
+				79EBBB1D27DFA78B00065B56 /* ProfileVC.swift in Sources */,
+				796797E327F86DC500E08A58 /* Image.swift in Sources */,
 				79EBBB0327DF72F100065B56 /* UserDefaults.swift in Sources */,
+				79EBBB0927DF75C800065B56 /* IntroductionCell.swift in Sources */,
+				79EBBB0E27DF9B2E00065B56 /* AppColor.swift in Sources */,
+				79EBBB1227DFA17700065B56 /* Button.swift in Sources */,
 				79CC6D7627DF6DF800C44E8C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,7 +462,6 @@
 				INFOPLIST_FILE = "Furniture shop/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -438,7 +489,6 @@
 				INFOPLIST_FILE = "Furniture shop/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
